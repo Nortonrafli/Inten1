@@ -8,12 +8,8 @@ import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
-
     public static final String NAMA = "Nama";
-    public static final String NAMA = NAMA;
-    public static final String NAME = NAMA;
     public static final String UMUR = "Umur";
-    public static final String UMUR = UMUR;
     EditText etnama;
     EditText etumur;
 
