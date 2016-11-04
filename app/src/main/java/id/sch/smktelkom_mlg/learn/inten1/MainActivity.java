@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         int umur = umurStr.isEmpty() ? 0 : Integer.parseInt(umurStr);
 
         Intent intent = new Intent(MainActivity.this, HasilActivity.class);
-        intent.putExtra(NAME, nama);
+        intent.putExtra(NAMA, nama);
         intent.putExtra(UMUR, umur);
 
 
